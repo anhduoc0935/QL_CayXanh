@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CayInformation">
+
+    <ImageView
+        android:id="@+id/tt_img_Anh"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:id="@+id/tt_TenKH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@id/tt_img_Anh"
+        android:text="Tên Khoa Hoc"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tt_TenTG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tt_TenKH"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@id/tt_img_Anh"
+        android:text="Ten Thuong Goi" />
+    <TextView
+        android:id="@+id/tt_Maula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tt_TenTG"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/tt_img_Anh"
+        android:text="Mau la" />
+
+    <TextView
+        android:id="@+id/tv_Dactinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="302dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:lineSpacingExtra="8dp"
+        android:text="Cây thân gỗ, sống nhiều năm, chiều cao trung bình 8-10m" />
+</RelativeLayout>

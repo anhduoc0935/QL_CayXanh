@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".them_CayXanh"
+    android:padding="10dp"
+    android:background="@drawable/background_bg"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ten khoa hoc:"
+        android:textSize="24dp"></TextView>
+    <EditText
+        android:id="@+id/edtTenKH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Nhap ten khoa hoc"
+      ></EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ten thuong goi:"
+        android:textSize="24dp"></TextView>
+    <EditText
+        android:id="@+id/edtTenTG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Nhap ten thuong goi"
+        ></EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dac tinh:"
+            android:textSize="24dp"></TextView>
+        <EditText
+            android:id="@+id/edtDactinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Nhap dac tinh cua cay"
+            ></EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mau la:"
+            android:textSize="24dp"></TextView>
+        <EditText
+            android:id="@+id/edtMaula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Nhap mau la"
+            ></EditText>
+        <Button
+            android:id="@+id/btnthem"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Them"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_bg"></Button>
+        <Button
+            android:id="@+id/btnReturn"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Quay lai"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_bg"></Button>
+    </LinearLayout>
+</RelativeLayout>

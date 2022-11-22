@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/imageviewHinh"
+        android:layout_width="120dp"
+        android:layout_height="120dp"></ImageView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/imageviewHinh"
+        android:id="@+id/txtten"
+        android:text="Ten khoa hoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+
+    <TextView
+        android:text="Ten thuong goi"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/txtten"
+        android:layout_toRightOf="@+id/imageviewHinh"
+        android:id="@+id/txttenthuong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <ImageView
+        android:id="@+id/btnMenu"
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        android:layout_toRightOf="@+id/txtten"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/ic_menu"></ImageView>
+</RelativeLayout>
